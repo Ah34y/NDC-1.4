@@ -1,0 +1,23 @@
+.most-recent
+{
+	text-align: center;
+	font-family:  Arial, helvetica;
+	font-size: 250%;
+	color: #eb387a; 
+}
+
+#column_photo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.left_photo{
+	margin: 3px;
+}
+
+.right_photo{
+	margin: 3px;
+}

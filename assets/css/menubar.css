@@ -1,0 +1,193 @@
+body
+{
+	font-family: verdana, calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+nav
+{
+	width: 100%;
+	background-color: #424558;
+
+}
+nav > ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+nav li
+{
+	list-style-type: none;
+}
+nav > ul > li
+{
+	float: left;
+	position: relative;
+}
+nav > ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+.submenu
+{
+	display: none;
+}
+nav input[type=checkbox]
+{
+	display: none;
+}
+nav label
+{
+	display: none;
+}
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a
+{
+	padding: 20px 30px;
+	color: #fff;
+} 
+nav > ul > li:hover a
+{
+	padding: 15px 30px 20px 30px;
+}
+nav li:hover .submenu
+{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+.submenu li a 
+{
+	padding: 15px 30px;
+	font-size: 13px;
+	color:#222538;
+	width: 270px; 
+}
+.submenu li
+{
+	border-bottom: 1px solid #ccc;
+}
+.menu-Accuile:hover
+{
+	border-top: 5px solid #e44d26;
+}
+.menu-SOS-Baby-sitting:hover
+{
+	border-top: 5px solid #e44d26;
+}
+.menu-Produits:hover
+{
+	border-top: 5px solid #e44d26;
+}
+.menu-Services:hover
+{
+	border-top: 5px solid #e44d26;
+}
+.menu-livre:hover
+{
+	border-top: 5px solid #e44d26;
+}
+.menu-A-Propos-de-nous:hover
+{
+	border-top: 5px solid #e44d26;
+}
+.menu-Accuile .submenu
+{
+	background-color: grey; 
+}
+.menu-SOS-Baby-sitting .submenu
+{
+	background-color: grey; 
+}
+.menu-Produits .submenu
+{
+	background-color: grey; 
+}
+.menu-Services .submenu
+{
+	background-color: grey; 
+}
+.menu-livre .submenu
+{
+	background-color: grey; 
+}
+.menu-A-Propos-de-nous .submenu
+{
+	background-color: grey; 
+}
+.submenu li:hover a
+{
+	color: #eee;
+	font-weight: bold;
+}
+.menu-Accuile .submenu li:hover
+{
+	background-color: silver
+}
+.menu-SOS-Baby-sitting .submenu li:hover
+{
+	background-color: silver
+}
+.menu-Produits .submenu li:hover
+{
+	background-color: silver
+}
+.menu-Services .submenu li:hover
+{
+	background-color: silver
+}
+.menu-livre .submenu li:hover 
+{
+	background-color: silver
+}
+.menu-A-Propos-de-nous .submenu li:hover
+{
+	background-color: silver
+}
+nav input[type=checkbox]:checked - ul
+{
+	display: block;
+}
+@media screen and(max-width: 780px)
+{
+	.menu-mobile {
+		display: block;
+		color: #fff;
+		background-color: rgba(29, 197, 151, 0.97);
+		text-align: center;
+		padding: 12px 0px; 
+	}
+	nav ul
+	{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

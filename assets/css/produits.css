@@ -1,0 +1,72 @@
+body 
+{
+	font-family: google font;
+	background-color: silver; 
+}
+h1
+{
+	text-align:center;
+	color: tomato;
+	margin: 30px 0 50px;
+}
+.image_gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2vh;
+}
+
+.image_gallery img{
+    width: 100%;
+    height: 50vh;
+
+}
+.gallery
+{
+	margin: 0 3%;
+}
+
+.gallery img
+{
+	/**width: 230px;
+	padding: 5px;**/
+	filter:grayscale(1000%);
+    transition: 0.7s;
+    
+    box-shadow: ;
+}
+.gallery img:hover
+{
+	filter: grayscale(0);
+    transform: scale(0.955);
+}
+
+.image1{
+    width: 35%;
+}
+.image2{
+    width: 30%;
+}
+.image3{
+    width: 35%;
+}
+.image4{
+    width: 35%;
+}
+.image5{
+    width: 30%;
+}
+.image6{
+    width: 35%;
+}
+.image7{
+    width: 35%;
+}
+.image8{
+    width: 30%;
+}
+.image9{
+    width: 35%;
+}
